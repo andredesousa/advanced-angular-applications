@@ -64,7 +64,7 @@ Fig. 4: Version control systems
 
 Git is the most used version control system. Git tracks the changes we make to files, so we have a record of what has been done, and we can revert to specific versions should we ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source. Once we have covered the basics, the next step is about how to write maintainable CSS and use CSS frameworks. Here is how the roadmap should look:
 
-![](images/Part2__004.png)
+![](images/chapter1__005.png)
 
 Fig. 5: CSS frameworks
 
@@ -104,7 +104,7 @@ These test types are the most recommended and are mandatory for frontend project
 
 Angular recommends [Vitest testing framework](https://vitest.dev/) for unit and integration tests. For functional tests is recommended [Playwright](https://playwright.dev/). However, other tools with higher popularity are also available. [Cypress](https://www.cypress.io/) and [Jest](https://jestjs.io/) are the most popular testing solutions. [Cucumber](https://cucumber.io/) is a framework that runs automated acceptance tests written in a [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) style. Each solution is good, but we will get a better experience by combining Angular recommendations with the strongest tools. This means that the better combination to test Angular apps is Jest + Cucumber + Playwright. However, it is only a proposal and other combinations are valid. Another important concept about testing is [code coverage](https://en.wikipedia.org/wiki/Code_coverage).
 
-Server rendered applications allow achieving better performance and improved SEO as compared to the client rendered applications. Although not a requirement it would help us in crafting better frontend applications. There are different options available, the most popular is [Next.js](https://nextjs.org/) for React. In the next image, we have the most important JavaScript solutions for server-side rendering. For Angular projects, [Angular Universal](https://blog.angular-university.io/angular-universal/) is recommended.
+Server rendered applications allow achieving better performance and improved SEO as compared to the client rendered applications. Although not a requirement it would help us in crafting better frontend applications. There are different options available, the most popular is [Next.js](https://nextcssjs.org/) for React. In the next image, we have the most important JavaScript solutions for server-side rendering. For Angular projects, [Angular Universal](https://blog.angular-university.io/angular-universal/) is recommended.
 
 ![](images/chapter1__009.png)
 
